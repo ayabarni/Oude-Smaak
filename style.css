@@ -1,0 +1,205 @@
+body {
+    width: 375px;
+    height: 100%;
+    background-color: #F2E4DC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 38px;
+    padding: .8rem;
+    position: relative;
+    font-family: 'Jost', sans-serif;
+    color: #344F59;
+}
+
+header{
+    width: 12.5625rem;
+    height: fit-content;
+}
+
+/* > is direct child */
+header > img{
+    width: inherit;
+    height: auto;
+}
+
+/* > is direct child */
+header > img:nth-of-type(2){
+    border-radius: 20px;
+}
+
+main{
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 38px;
+}
+
+h1,h2,p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #344F59;
+    font-weight: bold;    
+}
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+section a{
+    border-radius: 10px 30px 30px 30px;
+    background-color: #F28888;
+    padding: 0;
+    width: 6rem;
+    height: 2.1875rem;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav{
+    background-color: #344F59;
+    border-radius: 1.25rem 1.25rem 0rem 0rem;
+    width: 100%;
+    height: 5rem;   
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+}
+
+nav ul{
+    padding: 0;
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li{
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li.open-page{
+    background-color: #F2E4DC;
+    border-radius: 50%;
+}
+
+nav ul li a{
+    display: block;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+nav ul li a img{
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
+
+/* Duurzaamhied pagina */
+
+main h1{
+    
+    font-size: 25px;
+    text-align: center;
+
+}
+
+main section img{
+    width: 150px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Over we are vintage pagina */
+.producten section{
+    background-color: #F2CDC4;
+    border-radius: 10px 30px 30px 30px ;
+    box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-bottom: 15px;
+}
+
+.producten section div{
+    width: 100%;
+    height: 260px;
+    /* background-color: red; */
+    border-radius: 10px 30px 30px 30px ;
+    overflow: hidden;
+}
+
+.producten section p{
+    padding: 0px 10px;
+}
+
+.producten section div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.producten section:nth-of-type(2) div img{
+    object-position: 0% 23%;
+}
+
+.producten section:nth-of-type(3) div img{
+    object-position: 0% 15%;
+
+}
+
+.producten section:nth-of-type(5) div img{
+    object-fit: contain;
+}    
+
+
+.producten section a{
+    border-radius: 0;
+    background-color: transparent;
+    
+    width: 60%;
+    height: 2.1875rem;   
+    display: unset;
+    text-decoration: underline;
+   
+}

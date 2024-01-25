@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Laag_1" data-name="Laag 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 198.13 223.67">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b2cee2;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #dbecf5;
+      }
+
+      .cls-5 {
+        fill: #b5422d;
+      }
+
+      .cls-6 {
+        fill: #b7d0e3;
+      }
+    </style>
+  </defs>
+  <path class="cls-6" d="M160.19,85.76l-65.25,90.26c-.89,1.23-2.36,1.91-3.87,1.78l-84.33-6.94c-2.71-.22-4.55-2.86-3.83-5.48l18.63-67.29L45.2,3.78c.48-1.93,2.22-3.28,4.21-3.28h107.26c2.4,0,4.34,1.94,4.34,4.34v78.38c0,.91-.29,1.8-.82,2.54Z"/>
+  <polyline class="cls-1" points="155.78 94.55 159.01 104.18 191.31 200.47 136.17 214.88 112.51 155"/>
+  <rect class="cls-6" x=".73" y="176.3" width="91.22" height="16.09" rx="3.6" ry="3.6" transform="translate(17.91 -3.6) rotate(5.51)"/>
+  <rect class="cls-6" x="135.24" y="207.55" width="63.27" height="8.73" rx="4.37" ry="4.37" transform="translate(-48.13 49.04) rotate(-14.64)"/>
+  <rect class="cls-5" x="38.56" y="164.88" width="36" height="27.56" rx="6.6" ry="6.6" transform="translate(17.41 -4.6) rotate(5.51)"/>
+  <g>
+    <polygon class="cls-4" points="82.8 160.87 25.48 132.08 49.19 84.87 94.3 79.48 106.51 113.67 82.8 160.87"/>
+    <polygon class="cls-3" points="81.37 152.33 32.39 127.72 52.65 87.39 91.19 82.78 101.63 111.99 81.37 152.33"/>
+    <path class="cls-2" d="M89.91,135.96c-4.36,2.31-9.99,2.48-15.07-.02-5.28-2.59-8.65-7.42-9.32-12.5"/>
+    <path class="cls-2" d="M65.66,122.96c-4.36,2.31-9.99,2.48-15.07-.02-5.28-2.59-8.65-7.42-9.32-12.5"/>
+    <path class="cls-2" d="M87.49,140.8c-4.36,2.31-9.99,2.48-15.07-.02s-8.65-7.42-9.32-12.5"/>
+    <path class="cls-2" d="M63.24,127.8c-4.36,2.31-9.99,2.48-15.07-.02-5.28-2.59-8.65-7.42-9.32-12.5"/>
+  </g>
+</svg>
